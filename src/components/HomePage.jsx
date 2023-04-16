@@ -23,7 +23,7 @@ const HomeFetch = () => {
   );
 
   return (
-    <Col className="col-12 col-md-9 offset-md-3 mainPage">
+    <Col className="col-12 col-md-9 offset-md-3 mainPage text-white">
       <Row>
         <Col className="col-10">
           <SearchResultPageFetch />

@@ -28,7 +28,7 @@ const SearchResultPageFetch = () => {
   return (
     <Col>
       <SearchBar onSearch={handleSearch} />
-      <h2 className="search_title">Search Results</h2>
+      
       {isLoading && <div>Loading...</div>}
       {songInfo.length > 0 && (
         <Row>

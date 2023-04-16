@@ -2,6 +2,8 @@ import { Col, Row } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 
+
+
 const AlbumPage = () => {
   const { id } = useParams();
   const [album, setAlbum] = useState();

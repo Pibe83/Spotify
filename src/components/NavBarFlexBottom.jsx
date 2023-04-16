@@ -12,7 +12,7 @@ const NavBarFlexBottom = () => {
       <Row>
         <Col className="col-lg-10 offset-lg-2">
           <Row>
-            <Col className="col-6 col-md-4 col-lg-2 offset-3 offset-md-4 offset-lg-5 playerControls mt-1">
+            <Col className="col-6 col-md-4 col-lg-2 offset-3 offset-md-4 offset-lg-5 playerControls">
               <Row>
                 <Link to="#">
                   <Image src={ShuffleButton} alt="shuffle" />

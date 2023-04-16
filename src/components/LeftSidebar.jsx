@@ -21,6 +21,7 @@ const SideBarVertical = () => {
             <BsFillBookFill className="fas fa-book-open fa-lg" />
             &nbsp;Your Library
           </Nav.Link>
+          
           <Container><SearchBar/></Container>
         </Nav>
       </Navbar.Collapse>

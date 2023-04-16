@@ -6,6 +6,7 @@ import NavBarTop from "./components/NavBarTop";
 import NavBarFlexBottom from "./components/NavBarFlexBottom";
 import HomeFetch from "./components/HomePage";
 import AlbumPage from "./components/AlbumPage";
+import ArtistPage from "./components/ArtistPage";
 
 const App = () => (
   <>
@@ -16,6 +17,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<HomeFetch />} />
           <Route path="/album/:id" element={<AlbumPage />} />
+          <Route path="/artist/:id" element={<ArtistPage />} /> 
         </Routes>
         <NavBarFlexBottom />
       </BrowserRouter>

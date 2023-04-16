@@ -23,6 +23,7 @@ function SearchBar({ initialValue, onSearch }) {
           type="button"
           id="button-addon1"
           onClick={() => onSearch(searchValue)}
+          
         >
           GO
         </button>

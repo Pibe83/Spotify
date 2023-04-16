@@ -92,7 +92,7 @@ ul {
 }
 
 .playerControls a img {
-  width: 14px;
+  width: 13px;
   margin-top: 1rem;
   filter: brightness(60%);
 }
@@ -222,4 +222,11 @@ ul {
 
 .mainPage img {
   width: 200px;
+}
+.input-group input {
+  height: 36px;
+}
+
+.input-group button {
+  height: 36px;
 }
