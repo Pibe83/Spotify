@@ -17,7 +17,7 @@ const SingleCard = (props) => {
       }
     };
     fetchData();
-  }, [props.element]);
+  }, [props.element]); 
 
   return (
     <>
